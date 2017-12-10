@@ -1,0 +1,155 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="jquery/jquery-3.1.1.min.js"></script>
+		<script src="jquery/jquery-3.2.1.slim.min.js"></script>
+		<script src="jquery/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+			<a class="navbar-brand" href="#">AudioFormats</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Головна</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="test.html">Тест</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="used_literature.html">Використана література</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container" style="min-height: 500px;">
+			<img src="img/cifrovoe_i_analogovoe_audio_1.jpg" class="img-fluid mx-auto d-block image-on-page">
+			<p>
+					<b>Стиснення з втратами</b> застосовується, коли потрібно, як можна сильніше стиснути Такні, зберігши при цьому 
+					їх якість на прийнятному рівні.
+			</p>
+			<p>
+					Кодування з втратами виходить з того, що у вихідних незжатих матеріалах міститься багато зайвої інформації, яка 
+					не несе ніякої користі для слуху, її можна виТаклити, внаслідок чого добитися підвищення рівня стиснення.		
+			</p>
+			<img src="img/159c9a0742b1826d41c53679b80.jpg" class="rounded mx-auto d-block" height="200px">
+			<p>
+					Більшість методів кодування з втратами ґрунтується на використанні недосконалості нашого з вами слухового апарату, 
+					а так само ряду хитрощів пов'язаних з переквантуванням і передискретізацією.
+			</p>
+			<p>
+					У процесі стиснення аудіо Такні аналізуються кодером на предмет виявлення різних тонкощів звучання, якими можна знехтувати. 
+					Для підвищення стиснення можна позбутися від прихованих частот, які ми погано чуємо, але тим не менше вони присутні 
+					(це стосується діапазону нижче 20Гц і вище 22КГц).
+			</p>
+			<p>
+					Але при такому стискуванні дуже часто разом з «зайвим» відбувається нехтування корисним сигналом, що створює часто істотну 
+					різницю в порівнянні звучання з оригіналом. При такому кодуванні працює правило - чим сильніше стиск сигналу, тим сильніше 
+					можливі втрати корисного сигналу.
+			</p>
+			<p>
+					Порівняння звукових форматів зі стисненням з втратами:
+			</p>
+			<table class="table table-bordered table-striped" style="text-align: center;">
+					<thead class="thead-dark">
+						<tr>
+							<th>Назва формату</th>
+							<th>Розширення файлу</th>
+							<th>Частота дискретизації, кГц</th>
+							<th>Кількість каналів</th>
+							<th>Бітрейт, кбит/с</th>
+							<th>Затримка, мс</th>
+							<th>Постійний бітрейт</th>
+							<th>Змінний бітрейт</th>
+							<th>Випуск</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>AC-3</th>
+							<td>.ac3, .vob та ін.</td>
+							<td>32; 44.1; 48</td>
+							<td>до 6 (AC-3),
+								<p>до 13.1 E-AC-3</p>
+							</td>
+							<td>32—640 (AC-3),
+								<p>до 6144 E-AC-3</p>
+							</td>
+							<td>40.6</td>
+							<td>Так</td>
+							<td>Ні</td>
+							<td>1992, Dolby Laboratories</td>
+						</tr>
+						<tr>
+							<th>ATRAC</th>
+							<td>.aa3, .oma, .at3</td>
+							<td>24—48</td>
+							<td>до 8</td>
+							<td>292 (ATRAC1&#160;— стерео),
+								<p>1168 (ATRAC1&#160;— 8 каналів), 48-352 (ATRAC3plus)</p>
+							</td>
+							<td>&gt;100</td>
+							<td>Так</td>
+							<td>Ні</td>
+							<td>1992, Sony Corporation</td>
+						</tr>
+						<tr>
+							<th>MP3 (MPEG-1, 2, 2.5 Audio Layer III)</th>
+							<td>.mp3</td>
+							<td>8; 11.025; 12; 16; 22.05; 24; 32; 44.1; 48</td>
+							<td>до 2</td>
+							<td>8—320</td>
+							<td>&gt;100</td>
+							<td>Так</td>
+							<td>Так</td>
+							<td>1993, MPEG ISO/IEC 11172-3</td>
+						</tr>
+						<tr>
+							<th>AAC</th>
+							<td>.аас, .m4a, та ін.</td>
+							<td>8—192</td>
+							<td>до 48 каналів</td>
+							<td>8—529 (стерео)</td>
+							<td>20−405</td>
+							<td>Так</td>
+							<td>Так</td>
+							<td>1997, ІСО/МЕК Комітет по звуку MPEG</td>
+						</tr>
+						<tr>
+							<th>Windows Media Audio</th>
+							<td>.wma</td>
+							<td>8; 11.025; 16; 22.05; 32; 44.1; 48; 88,2; 96</td>
+							<td>до 8 і вище</td>
+							<td>4—768</td>
+							<td>&gt;100</td>
+							<td>Так</td>
+							<td>Так</td>
+							<td>1999, Microsoft</td>
+						</tr>
+						<tr>
+							<th>Vorbis (Ogg)</th>
+							<td>.ogg</td>
+							<td>8—192</td>
+							<td>до 255</td>
+							<td>до 1000</td>
+							<td>&gt;100</td>
+							<td>Так / ABR</td>
+							<td>Так</td>
+							<td>2000, Xiph.Org Foundation</td>
+						</tr>
+					</tbody>
+				</table>
+				
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted">Розрахункова робота студента групи <i>КН-35 Сіка Крістіана</i>. 2017 рік.</span>
+			</div>
+		</footer>
+	</body>
+</html>

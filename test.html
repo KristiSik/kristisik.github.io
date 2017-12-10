@@ -1,0 +1,137 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="jquery/jquery-3.1.1.min.js"></script>
+		<script src="jquery/scripts.js"></script>
+		<script src="jquery/jquery-3.2.1.slim.min.js"></script>
+		<script src="jquery/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+			<a class="navbar-brand" href="#">AudioFormats</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Головна</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="test.html">Тест</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="used_literature.html">Використана література</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container" style="min-height: 500px;">
+			<p>
+				Дайте відповіді на наведені нижче питання та натисніть "Готово", щоб дізнатися про результат.
+			</p>
+			<p>
+				<b>Що таке кодек?</b>
+				<br>
+				<input type="radio" value="1" name="1" checked>Протокол, призначений для управління передачею даних у комп'ютерних мережах, працює на транспортному рівні моделі OSI
+				<br>
+				<input type="radio" value="2" name="1">Мережевий протокол, призначений для перетворення IP-адрес (адрес мережевого рівня) в MAC-адреси (адреси канального рівня) в мережах TCP/IP
+				<br>
+				<input type="radio" value="3" name="1">Певний алгоритм кодування і стиснення даних в аудіо-формат
+			</p>
+			<p>
+				<b>До якої групи звукових форматів належить FLAC?</b>
+				<br>
+				<input type="radio" value="1" name="2" checked>Нестиснені формати
+				<br>
+				<input type="radio" value="2" name="2">Формати із стисненням без втрат
+				<br>
+				<input type="radio" value="3" name="2">Формати із стисненням з втратами
+			</p>
+			<p>
+				<b>До якої групи звукових форматів належить MIDI?</b>
+				<br>
+				<input type="radio" value="1" name="3" checked>Нестиснені формати
+				<br>
+				<input type="radio" value="2" name="3">Формати із стисненням без втрат
+				<br>
+				<input type="radio" value="3" name="3">Формати із стисненням з втратами
+				<br>
+				<input type="radio" value="4" name="3">Не є аудіофайлом
+			</p>
+			<p>
+				<b>Що означає термін "Стиснення без втрат"?</b>
+				<br>
+				<input type="radio" value="1" name="4" checked>Повне збереження якості звукової аудіо інформації
+				<br>
+				<input type="radio" value="2" name="4">Стиснення, за яке не потрібно платити
+				<br>
+				<input type="radio" value="3" name="4">Найшвидше із стиснень, яке передбачає "не витрачання часу"
+			</p>
+			<p>
+				<b>Хто є творцем WAV?</b>
+				<br>
+				<input type="radio" value="1" name="5" checked>Sony
+				<br>
+				<input type="radio" value="2" name="5">Microsoft
+				<br>
+				<input type="radio" value="3" name="5">Apple
+			</p>
+			<p>
+				<b>Які розширення мають аудіо-файли формату ATRAC?</b>
+				<br>
+				<input type="radio" value="1" name="6" checked>.aac, .m4a, .wma
+				<br>
+				<input type="radio" value="2" name="6">.mp3, .mp4
+				<br>
+				<input type="radio" value="3" name="6">.aa3, .oma, .at3
+			</p>
+			<p>
+				<b>Котрий з перелічених форматів може мати найбільшу кількість каналів?</b>
+				<br>
+				<input type="radio" value="1" name="7" checked>WavPack
+				<br>
+				<input type="radio" value="2" name="7">MPEG-4 Audio Lossless Coding (ALS)
+				<br>
+				<input type="radio" value="3" name="7">Windows Media Audio 9 Lossless
+			</p>
+			<p>
+				<b>Якою компанією був розроблений формат OGG?</b>
+				<br>
+				<input type="radio" value="1" name="8" checked>Xiphophorus
+				<br>
+				<input type="radio" value="2" name="8">Microsoft
+				<br>
+				<input type="radio" value="3" name="8">Philips
+			</p>
+			<p>
+				<b>Яка частота дискретизації FLAC?</b>
+				<br>
+				<input type="radio" value="1" name="9" checked>1МГц
+				<br>
+				<input type="radio" value="2" name="9">0.512Гц
+				<br>
+				<input type="radio" value="3" name="9">1Гц - 655.350кГц
+			</p>
+			<p>
+				<b>Які недоліки стиснень без втрат?</b>
+				<br>
+				<input type="radio" value="1" name="10" checked>Тихе звучання
+				<br>
+				<input type="radio" value="2" name="10">Великий об'єм аудіо-файлу
+				<br>
+				<input type="radio" value="3" name="10">Недоліків немає
+			</p>
+			<div class="row">
+				<button id="ready" class="btn btn-success">Готово</button>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted">Розрахункова робота студента групи <i>КН-35 Сіка Крістіана</i>. 2017 рік.</span>
+			</div>
+		</footer>
+	</body>
+</html>

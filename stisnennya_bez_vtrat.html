@@ -1,0 +1,252 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="jquery/jquery-3.1.1.min.js"></script>
+		<script src="jquery/jquery-3.2.1.slim.min.js"></script>
+		<script src="jquery/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+			<a class="navbar-brand" href="#">AudioFormats</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Головна</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="test.html">Тест</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="used_literature.html">Використана література</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container" style="min-height: 500px;">
+			<img src="img/nx100s_pn1e.jpg" class="img-fluid image-on-page">
+			<p>
+					<b>Стиснення без втрат</b> — спосіб кодування, що дозволяє повністю відновити вихідні дані зі зжатого потоку. Його застосовують 
+					у разі необхідності повного збереження якості вихідної звукової аудіо інформації. Сучасні алгоритми стиснення без втрат 
+					дозволяють скоротити обсяг більш ніж в 2 рази, при цьому не втрачаючи якості. Подібні кодери працюють за принципом звичайного 
+					архіватора. Але на відміну від них вони адаптовані спеціально для роботи з аудіо.
+			</p>
+			<p>
+					Кодування без втрат ідеально зберігає якість даних, але воно не може забезпечити часто необхідний рівень стиснення.
+			</p>
+			<p>
+					Порівняння звукових форматів зі стисненням без втрат:
+			</p>
+			<table class="table table-striped table-bordered" style="text-align: center;">
+					<thead class="thead-dark">
+							<tr>
+									<th>Назва формату</th>
+									<th>Розширення файлу</th>
+									<th>Квантування, біт</th>
+									<th>Частота дискретизації, кГц</th>
+									<th>Кількість каналів</th>
+									<th>Степінь стиснення/упакування</th>
+									<th>Випуск</th>
+								</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Shorten</td>
+							<td>.shn</td>
+							<td>16</td>
+							<td>44.1</td>
+							<td>2</td>
+							<td>3:1&#160;— 5:1, стиснення без втрат</td>
+							<td>1994, Tony Robinson</td>
+						</tr>
+						<tr>
+							<td>WavPack</td>
+							<td>.wv</td>
+							<td>8; 16; 24; 32</td>
+							<td>6&#160;— 192</td>
+							<td>1&#160;— 256</td>
+							<td>1.4:1&#160;— 3.3:1, стиснення без втрат</td>
+							<td>1998, Conifer Software</td>
+						</tr>
+						<tr>
+							<td>Meridian Lossless Packing (MLP)</td>
+							<td>.mlp</td>
+							<td>до 24</td>
+							<td>до 192</td>
+							<td>1; 2; 5.1; 6.0; 8.0</td>
+							<td>~2:1, стиснення без втрат</td>
+							<td>1998, MERIDIAN</td>
+						</tr>
+						<tr>
+							<td>RK Audio (RKAU)</td>
+							<td>.rka</td>
+							<td>16</td>
+							<td>44.1</td>
+							<td>2</td>
+							<td>2:1, стиснення без втрат, стиснення з незначними втратами</td>
+							<td>2000, Malcolm Taylor, RK Software</td>
+						</tr>
+						<tr>
+							<td>FLAC</td>
+							<td>.flac</td>
+							<td>4&#160;— 32</td>
+							<td>1Гц&#160;— 655.350 кГц з кроком 1 Гц</td>
+							<td>1&#160;— 8</td>
+							<td>1.4:1&#160;— 4:1, стиснення без втрат</td>
+							<td>2000, Josh Coalson</td>
+						</tr>
+						<tr>
+							<td>Monkey’s Audio</td>
+							<td>.ape</td>
+							<td>16; 24</td>
+							<td>8; 11.025; 12; 16; 22.05; 24; 32; 44.1; 48; 96</td>
+							<td>2</td>
+							<td>1.4:1&#160;— 4:1, стиснення без втрат</td>
+							<td>2000+, Matthew T. Ashland</td>
+						</tr>
+						<tr>
+							<td>OptimFROG</td>
+							<td>.ofs</td>
+							<td>до 32</td>
+							<td>до 192</td>
+							<td>2</td>
+							<td>1.4:1&#160;— 4:1, стиснення без втрат</td>
+							<td>2001, Florin Ghido</td>
+						</tr>
+						<tr>
+							<td>Lossless Predictive Audio Coder (LPAC)</td>
+							<td>.pac</td>
+							<td>8; 16; 20; 24</td>
+							<td>до 192</td>
+							<td>2</td>
+							<td>1.5:1&#160;— 4:1, стиснення без втрат</td>
+							<td>2002, Tilman Liebchen, Marcus Purat, Peter Noll</td>
+						</tr>
+						<tr>
+							<td>LosslessAudio (LA)</td>
+							<td>.la</td>
+							<td>16</td>
+							<td>48</td>
+							<td>2</td>
+							<td>1.4:1&#160;— 3.3:1, стиснення без втрат</td>
+							<td>2002, Michael Bevin</td>
+						</tr>
+						<tr>
+							<td>Windows Media Audio 9 Lossless</td>
+							<td>.wma</td>
+							<td>16; 24</td>
+							<td>8; 11.025; 16; 22.05; 32; 44.1; 48; 88.2; 96</td>
+							<td>до 6</td>
+							<td>1.7:1&#160;— 3:1, стиснення без втрат</td>
+							<td>2003, Microsoft</td>
+						</tr>
+						<tr>
+							<td>Apple Lossless (ALAC, ALE)</td>
+							<td>.m4a</td>
+							<td>16; 24</td>
+							<td>44.1; 48; 88.2; 96; 192</td>
+							<td>до 6</td>
+							<td>1.7:1&#160;— 2.5:1, стиснення без втрат</td>
+							<td>2004, Apple Inc.</td>
+						</tr>
+						<tr>
+							<td>RealAudio Lossless (RAL, ralf)</td>
+							<td>.rmvb</td>
+							<td>16 та ін.</td>
+							<td>44.1 та ін.</td>
+							<td>2</td>
+							<td>н/д, стиснення без втрат</td>
+							<td>2004, RealNetworks</td>
+						</tr>
+						<tr>
+							<td>True Audio (TTA)</td>
+							<td>.tta</td>
+							<td>8; 16; 24</td>
+							<td>0—4 ГГц</td>
+							<td>65535</td>
+							<td>1.4:1&#160;— 3.3:1, стиснення без втрат</td>
+							<td>2004, Александр Джурик</td>
+						</tr>
+						<tr>
+							<td>DTS-HD Master Audio (DTS++, DTS HD)</td>
+							<td>-</td>
+							<td>до 24</td>
+							<td>до 192</td>
+							<td>до 8</td>
+							<td>2:1&#160;— 4:1 , стиснення без втрат</td>
+							<td>2004, Digital Theater System.</td>
+						</tr>
+						<tr>
+							<td>Direct Stream Transfer (DST)</td>
+							<td>DSD</td>
+							<td>1</td>
+							<td>64*44.1; 128*44.1; 256*44.1</td>
+							<td>2; 5.1</td>
+							<td>стиснення без втрат</td>
+							<td>2005, MPEG-4 ISO/IEC 14496-3:2001/Amd 6:2005</td>
+						</tr>
+						<tr>
+							<td>Dolby TrueHD</td>
+							<td>.mlp</td>
+							<td>до 24</td>
+							<td>до 192</td>
+							<td>до 14</td>
+							<td>2:1&#160;— 4:1 , стиснення без втрат</td>
+							<td>2005, Dolby Laboratories</td>
+						</tr>
+						<tr>
+							<td>ATRAC Advanced Lossless (AAL)</td>
+							<td>.aa3; .oma; .at3</td>
+							<td>16</td>
+							<td>44.1</td>
+							<td>2</td>
+							<td>1.25:1&#160;— 3:1, стиснення без втрат</td>
+							<td>2006, Sony Corporation</td>
+						</tr>
+						<tr>
+							<td>MPEG-4 Audio Lossless Coding (ALS)</td>
+							<td>.mp4
+								<p>.als</p>
+							</td>
+							<td>8; 16; 20; 24; 32</td>
+							<td>44.1; 48; 88.2; 96; 192; (384)</td>
+							<td>до 65536</td>
+							<td>1.5:1&#160;— 4:1, стиснення без втрат</td>
+							<td>2006, MPEG ISO/IEC 14496-5:2001/Amd 10:2007/Cor 3:2009</td>
+						</tr>
+						<tr>
+							<td>MPEG-4 Scalable to Lossless (SLS), HD-AAC</td>
+							<td>.mp4
+								<p>.m4a?</p>
+								<p>.</p>
+							</td>
+							<td>8; 16; 20; 24</td>
+							<td>44.1; 48; 88.2; 96; 192</td>
+							<td>2; 5.1</td>
+							<td>1.5:1&#160;— 4:1, стиснення без втрат, містить потік aac (стиснення с втратами, 128 
+								кбіт/с)</td>
+							<td>2007, MPEG ISO/IEC 14496-5:2001/Amd 10:2007</td>
+						</tr>
+						<tr>
+							<td>Tom’s lossless Audio Kompressor (TAK)</td>
+							<td>.tak</td>
+							<td>16; 24</td>
+							<td>до 192</td>
+							<td>2</td>
+							<td>1.4:1&#160;— 3.3:1, стиснення без втрат</td>
+							<td>2007, Thomas Becker</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted">Розрахункова робота студента групи <i>КН-35 Сіка Крістіана</i>. 2017 рік.</span>
+			</div>
+		</footer>
+	</body>
+</html>

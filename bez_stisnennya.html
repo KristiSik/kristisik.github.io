@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="jquery/jquery-3.1.1.min.js"></script>
+		<script src="jquery/jquery-3.2.1.slim.min.js"></script>
+		<script src="jquery/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+			<a class="navbar-brand" href="#">AudioFormats</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Головна</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="test.html">Тест</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="used_literature.html">Використана література</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container" style="min-height: 500px;">
+				<p>
+						Порівняння звукових форматів без стиснення:
+				</p>
+				<table class="table table-bordered table-striped" style="text-align: center;">
+						<thead class="thead-dark">
+							<tr>
+								<th>Назва формату</th>
+								<th>Розширення файлу</th>
+								<th>Квантування, біт</th>
+								<th>Частота дискретизації, кГц</th>
+								<th>Кількість каналів</th>
+								<th>Бітрейт (на канал), Mбіт/с</th>
+								<th>Степінь стиснення/упакування</th>
+								<th>Призначення</th>
+								<th>Випуск</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>AIFF</td>
+								<td>.aiff; .aif</td>
+								<td>8; 16; 24; 32</td>
+								<td>11,025; 22,05; 24; 32; 44,1; 48; 96; 192</td>
+								<td>1; 2; 3; 4; 6</td>
+								<td>до 6,144</td>
+								<td>1:1; без стиснення</td>
+								<td>зберігання звукових даних на ПК</td>
+								<td>1988, Apple</td>
+							</tr>
+							<tr>
+								<td>WAVE (WAV)</td>
+								<td>.wav</td>
+								<td>8; 16; 24; 32</td>
+								<td>будь-яка</td>
+								<td>1; 2; 3; 4; 6</td>
+								<td>до 6,144</td>
+								<td>1:1; без стиснення</td>
+								<td>зберігання звукових даних на ПК</td>
+								<td>1991, Microsoft та IBM</td>
+							</tr>
+							<tr>
+								<td>DSD</td>
+								<td>.dff; .dsf</td>
+								<td>1</td>
+								<td>2822,4 (64f<sub>s</sub>); 5644,8 (128f<sub>s</sub>)</td>
+								<td>2, 5.1</td>
+								<td>2,8224; 5,6448</td>
+								<td>1:1; без стиснення, можливе стиснення DST</td>
+								<td>SACD</td>
+								<td>1998, Sony и Philips</td>
+							</tr>
+							<tr>
+								<td>Digital eXtreme Definition (DXD)</td>
+								<td>DXD</td>
+								<td>24; 32</td>
+								<td>352,8</td>
+								<td>2, 5.1</td>
+								<td>8,4672; 11,2896</td>
+								<td>1:1; без стиснення</td>
+								<td>професіональне виробництво SACD</td>
+								<td>2004, Sony</td>
+							</tr>
+						</tbody>
+					</table>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted">Розрахункова робота студента групи <i>КН-35 Сіка Крістіана</i>. 2017 рік.</span>
+			</div>
+		</footer>
+	</body>
+</html>
